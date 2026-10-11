@@ -1,0 +1,11 @@
+{
+	"name": "Learn-Dart",
+	"image": "dart:3.13.5-sdk",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Dart-Code.dart-code"
+			]
+		}
+	}
+}
