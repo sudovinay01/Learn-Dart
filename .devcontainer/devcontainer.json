@@ -7,5 +7,6 @@
 				"Dart-Code.dart-code"
 			]
 		}
-	}
+	},
+	"postCreateCommand": "dart --disable-analytics"
 }
