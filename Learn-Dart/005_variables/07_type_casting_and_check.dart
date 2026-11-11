@@ -4,9 +4,11 @@ void main() {
   String type3 = "educative";
   bool type4 = true;
 
-  print(type1 is int);     // false
-  print(type2 is int);     // true
-  print(type3 is String);  // true
-  print(type4 is double);  // false
+  print(type1 is int); // false
+  // ignore: unnecessary_type_check
+  print(type2 is int); // true
+  // ignore: unnecessary_type_check
+  print(type3 is String); // true
+  print(type4 is double); // false
   print(type4 is! double); // true
 }

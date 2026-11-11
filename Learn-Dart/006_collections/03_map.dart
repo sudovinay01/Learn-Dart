@@ -2,6 +2,7 @@ void main() {
   final capitals = <String, String>{
     'France': 'Paris',
     'Japan': 'Tokyo',
+    // ignore: equal_keys_in_map
     'France': 'Lyon',
   };
 

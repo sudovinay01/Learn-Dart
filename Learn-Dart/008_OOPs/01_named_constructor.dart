@@ -15,7 +15,6 @@ class Person {
 }
 
 void main() {
-  final firstPerson = Person('Sarah', 'Female', 25);
   final secondPerson = Person.newBorn();
 
   print(secondPerson.age);

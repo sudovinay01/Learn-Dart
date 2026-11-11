@@ -20,6 +20,7 @@ void main() {
   String? missingText;
   // ?. is a null-aware operator that checks if the variable is null before accessing its property or method.
   //  If the variable is null, it returns null instead of throwing an error.
+  // ignore: dead_code
   print(missingText?.length);
 
   print("Enter your name:");
